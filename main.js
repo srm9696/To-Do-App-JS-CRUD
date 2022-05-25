@@ -9,7 +9,7 @@ let edit = document.querySelector(".fa-pen");
 let recordExist = false;
 let id;
 
-textInput.focus(); //Not working
+textInput.focus();
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
